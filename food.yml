@@ -2,3 +2,5 @@
 -  host : web
    roles :
    - httpd :
+   tasks :
+   - name : download html code:
